@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h> /* sqrt */
 using namespace std;
 
 int main()
@@ -30,9 +31,14 @@ int main()
         cout << num1 / num2;
         break;
 
+    case 's':
+        cout << sqrt(num1);
+        break;
+
     default:
         // If the operator is other than +, -, * or /, error message is shown
-        cout << "Error! operator is not correct";
+        cout
+            << "Error! operator is not correct";
         break;
     }
 
