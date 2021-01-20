@@ -30,6 +30,10 @@ int main()
     case '/':
         cout << num1 / num2;
         break;
+            
+    case 'p':
+        cout << pow(num1, num2);
+        break;
 
     case 's':
         cout << sqrt(num1);
